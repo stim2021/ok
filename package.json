@@ -1,0 +1,18 @@
+{
+  "name": "sf-ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "author": "Charlie Gerard <charlie.a.gerard@gmail.com>",
+  "scripts": {
+    "start": "nodemon server/index.js localhost 8080"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "@tensorflow/tfjs-node": "^1.1.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  },
+  "keywords": []
+}
